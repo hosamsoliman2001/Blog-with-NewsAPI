@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog & News App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📝 تطبيق مدونة بسيط</h1>
+  </header>
+
+  <main>
+    <!-- Form -->
+    <section id="form-section">
+      <h2>أضف منشوراً جديداً</h2>
+      <form id="postForm">
+        <input type="text" id="title" placeholder="عنوان المنشور" required>
+        <textarea id="content" placeholder="محتوى المنشور" required></textarea>
+        <button type="submit">إضافة منشور</button>
+      </form>
+    </section>
+
+    <!-- Posts -->
+    <section id="posts-section">
+      <h2>مشاركات المستخدم</h2>
+      <div id="posts"></div>
+    </section>
+
+    <!-- News -->
+    <section id="news-section">
+      <h2>أحدث الأخبار</h2>
+      <div id="news"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
